@@ -20,7 +20,6 @@ class UpdateTaskViewController: UIViewController
         {
             updateTextField.text = isTaskEmpty.task_name
         }
-        
     }
     
     @IBAction func updateButton(_ sender: Any)

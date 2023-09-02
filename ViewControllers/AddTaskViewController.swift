@@ -7,7 +7,8 @@
 
 import UIKit
 
-class AddTaskViewController: UIViewController {
+class AddTaskViewController: UIViewController
+{
     let context = appDelegate.persistentContainer.viewContext
 
     @IBOutlet weak var addTaskTextField: UITextField!
@@ -18,18 +19,16 @@ class AddTaskViewController: UIViewController {
     }
     
 
-    @IBAction func addButton(_ sender: Any) {
+    @IBAction func addButton(_ sender: Any)
+    {
         
         if let isTaskEmpty = addTaskTextField.text
         {
-            
             let task = Tasks(context: context)
             task.task_name = isTaskEmpty
             appDelegate.saveContext()
             
-            
             performSegue(withIdentifier: "addTask", sender: nil)
-            
         }
         
     }
