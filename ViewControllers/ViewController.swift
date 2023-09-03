@@ -27,8 +27,7 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        stringlist = ["batuhan","berk"]
-        
+    
         taskTableView.delegate = self
         taskTableView.dataSource = self
         taskSearchBar.delegate = self
