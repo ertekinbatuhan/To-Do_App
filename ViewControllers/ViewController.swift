@@ -115,7 +115,6 @@ extension ViewController : UITableViewDataSource , UITableViewDelegate
             
             let deleteTask = self.tasksList[indexPath.row]
             self.context.delete(deleteTask)
-            
             appDelegate.saveContext()
             
             self.getAllTasks()
@@ -139,7 +138,7 @@ extension ViewController : UISearchBarDelegate
 {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String)
     {
-        print("aranan \(searchText)")
+       
        searchWord = searchText
         
         if searchText == ""
