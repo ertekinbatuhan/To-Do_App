@@ -15,10 +15,13 @@ class AddTaskViewController: UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        addTaskTextField.layer.borderWidth = 2.0
+        addTaskTextField.layer.cornerRadius = 20
+        addTaskTextField.layer.masksToBounds = true
+        addTaskTextField.layer.borderColor = UIColor.systemOrange.cgColor
         // Do any additional setup after loading the view.
     }
     
-
     @IBAction func addButton(_ sender: Any)
     {
         

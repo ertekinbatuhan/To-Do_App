@@ -24,10 +24,10 @@ class UpdateTaskViewController: UIViewController
         {
             updateTextField.text = isTaskEmpty.task_name
         }
-        
-        updateTextField.layer.cornerRadius = 8
+        updateTextField.layer.borderWidth = 2.0
+        updateTextField.layer.cornerRadius = 20
         updateTextField.layer.masksToBounds = true
-        
+        updateTextField.layer.borderColor = UIColor.systemOrange.cgColor
         
     }
     
