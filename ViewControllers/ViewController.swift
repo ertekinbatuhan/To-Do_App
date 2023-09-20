@@ -32,6 +32,10 @@ class ViewController: UIViewController
         taskTableView.dataSource = self
         taskSearchBar.delegate = self
         
+  
+        
+        
+        
     }
     
     override func viewWillAppear(_ animated: Bool)
@@ -87,8 +91,19 @@ extension ViewController : UITableViewDataSource , UITableViewDelegate
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "task") as! TaskTableViewCell
         cell.taskNameLabel.text = tasksList[indexPath.row].task_name
+        
+        cell.backgroundColor = .systemOrange
+        cell.layer.cornerRadius = 16
+        cell.layer.masksToBounds = true
+        cell.taskNameLabel.textColor = .white
+        cell.layer.borderWidth = 6.0
+        cell.layer.borderColor = CGColor(gray: 5, alpha: 5)
+        
         return cell
+              
     }
+    
+    
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
@@ -130,6 +145,9 @@ extension ViewController : UITableViewDataSource , UITableViewDelegate
         })
         
         return [deleteAction,updateAction]
+    }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
     }
 }
 

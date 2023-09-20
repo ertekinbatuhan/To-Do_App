@@ -13,13 +13,22 @@ class UpdateTaskViewController: UIViewController
     var task : Tasks?
     
     @IBOutlet weak var updateTextField: UITextField!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+       
         if let isTaskEmpty = task
         {
             updateTextField.text = isTaskEmpty.task_name
         }
+        
+        updateTextField.layer.cornerRadius = 8
+        updateTextField.layer.masksToBounds = true
+        
+        
     }
     
     @IBAction func updateButton(_ sender: Any)
