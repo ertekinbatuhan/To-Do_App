@@ -1,1 +1,1 @@
-![Apple iPhone Xs Presentation](https://github.com/ertekinbatuhan/To-Do_App/assets/101355515/7321685f-00f7-4746-b701-3d20420bf763)
+![Apple iPhone 11 Presentation](https://github.com/ertekinbatuhan/To-Do_App/assets/101355515/f685f8f3-82b4-475c-9441-65ba78e1ba21)
