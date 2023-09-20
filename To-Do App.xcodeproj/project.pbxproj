@@ -45,29 +45,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C029E1AC2AA3C9E20086C251 /* ViewControllers */ = {
+		C03DFBCF2ABB55FA00867B1A /* View */ = {
 			isa = PBXGroup;
 			children = (
 				C0E99E912AA3AF5100748AF4 /* AddTaskViewController.swift */,
 				C0E99E932AA3AF6E00748AF4 /* UpdateTaskViewController.swift */,
 				C0E99E7C2AA3A33300748AF4 /* ViewController.swift */,
 			);
-			path = ViewControllers;
+			path = View;
 			sourceTree = "<group>";
 		};
-		C0B1C8E72AA455DB008E06C5 /* Cells */ = {
+		C03DFBD02ABB565400867B1A /* Cell */ = {
 			isa = PBXGroup;
 			children = (
 				C0E99E8F2AA3AA8900748AF4 /* TaskTableViewCell.swift */,
 			);
-			path = Cells;
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C03DFBD12ABB566A00867B1A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		C0E99E6C2AA3A33300748AF4 = {
 			isa = PBXGroup;
 			children = (
-				C0B1C8E72AA455DB008E06C5 /* Cells */,
-				C029E1AC2AA3C9E20086C251 /* ViewControllers */,
+				C03DFBD12ABB566A00867B1A /* ViewModel */,
+				C03DFBD02ABB565400867B1A /* Cell */,
+				C03DFBCF2ABB55FA00867B1A /* View */,
 				C0E99E772AA3A33300748AF4 /* To-Do App */,
 				C0E99E762AA3A33300748AF4 /* Products */,
 			);

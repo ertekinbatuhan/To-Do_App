@@ -126,9 +126,11 @@
                             <constraint firstItem="mse-DR-c8m" firstAttribute="leading" secondItem="Kn0-Lf-xTw" secondAttribute="leading" constant="35" id="4U2-cu-kUo"/>
                             <constraint firstItem="Od9-tb-Daf" firstAttribute="centerX" secondItem="bYJ-O5-nHL" secondAttribute="centerX" id="DYZ-y8-XVo"/>
                             <constraint firstItem="mse-DR-c8m" firstAttribute="top" secondItem="Kn0-Lf-xTw" secondAttribute="top" constant="84" id="Dcb-UP-wpz"/>
+                            <constraint firstItem="Od9-tb-Daf" firstAttribute="top" secondItem="mse-DR-c8m" secondAttribute="bottom" constant="324" id="Esf-cO-Eq9"/>
                             <constraint firstItem="mse-DR-c8m" firstAttribute="centerX" secondItem="Od9-tb-Daf" secondAttribute="centerX" id="Inf-pF-LpG"/>
                             <constraint firstItem="Od9-tb-Daf" firstAttribute="top" secondItem="mse-DR-c8m" secondAttribute="bottom" constant="221" id="O0E-yb-r1m"/>
                             <constraint firstItem="Od9-tb-Daf" firstAttribute="leading" secondItem="Kn0-Lf-xTw" secondAttribute="leading" constant="120" id="YNy-I9-eo5"/>
+                            <constraint firstItem="Kn0-Lf-xTw" firstAttribute="bottom" secondItem="Od9-tb-Daf" secondAttribute="bottom" constant="277" id="reV-CU-ZVI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Update Task" id="ij8-Rb-iGp"/>
